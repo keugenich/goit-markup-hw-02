@@ -31,13 +31,12 @@ body {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--button-bgc);
 }
 
 .logo-studio {
@@ -53,7 +52,6 @@ body {
 }
 
 .address-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -88,7 +86,6 @@ body {
 .hero-button {
   background-color: var(--button-bgc);
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -157,7 +154,6 @@ body {
   border: 1px solid var(--hairlines);
   border-radius: 4px;
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
